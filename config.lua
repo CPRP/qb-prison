@@ -37,10 +37,10 @@ Config.Uniforms ={
     ['female'] = {
         outfitData ={
             ['t-shirt'] = {item = 14, texture = 0},
-			['torso2'] = {item = 370, texture = 0},
-			['arms'] = {item = 0, texture = 0},
-			['pants'] = {item = 0, texture = 12},
-			['shoes'] = {item = 1, texture = 0},
+			['torso2'] = {item = 455, texture = 1},
+			['arms'] = {item = 14, texture = 0},
+			['pants'] = {item = 11, texture = 3},
+			['shoes'] = {item = 65, texture = 1},
         }
     },
 }
