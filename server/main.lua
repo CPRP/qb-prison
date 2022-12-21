@@ -114,9 +114,9 @@ RegisterNetEvent('prison:server:CheckChance', function()
     local chance = math.random(100)
     local odd = math.random(100)
     if chance ~= odd then return end
-    if not Player.Functions.AddItem('phone', 1) then return end
-    TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items['phone'], 'add')
-    TriggerClientEvent('QBCore:Notify', src, Lang:t('success.found_phone'), 'success')
+    if not Player.Functions.AddItem('radio', 1) then return end
+    TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items['radio'], 'add')
+    TriggerClientEvent('QBCore:Notify', src, Lang:t('success.found_radio'), 'success')
     GotItems[src] = true
 end)
 
